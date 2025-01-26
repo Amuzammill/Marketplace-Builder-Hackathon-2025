@@ -8,5 +8,5 @@ import { orderType } from "./orderType";
 import { orderItemType } from "./orderItemType";
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [blockContentType, categoryType, productType, customerType, orderType,orderItemType],
+  types: [blockContentType, categoryType, productType, customerType, orderType],
 };
